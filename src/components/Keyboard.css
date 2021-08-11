@@ -1,0 +1,36 @@
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+button {
+	background-color: #05B8CC;
+    display: inline-block;
+    height: 35px;
+    width: 60px;
+    border: 0.2px solid rgb(94, 89, 83);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+  
+  button:hover,
+  button:focus {
+    background: #388E8E;
+  }
+  
+  button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+  }
+  
+  button:active {
+    transform: scale(0.99);
+  }
